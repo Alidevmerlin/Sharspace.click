@@ -296,7 +296,7 @@
                     <table border="1" cellpadding="5" style="background: #FFFFCC;">
                         <tr>
                             <td><strong>Total Visits:</strong></td>
-                            <td><blink>1,000,000+<blink></td>
+                            <td><blink>100,000+<blink></td>
                         </tr>
                         <tr>
                             <td><strong>Server Stats:</strong></td>
