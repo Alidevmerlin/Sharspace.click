@@ -74,6 +74,10 @@
                   </audio>
                   <button id="bg-toggle">Mute</button>
                 </div>
+              <div class="sidebar-widget">
+                    <h4>Github</h4>
+                <iframe src="https://ghbtns.com/github-btn.html?user=Alidevmerlin&repo=Sharspace.click&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub" ></iframe>
+                </div>
               
             </td>
             <td width="650" valign="top" class="content-column">
