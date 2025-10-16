@@ -203,11 +203,6 @@
                             <td style="background-color: lime; text-align: center;">Active!</td>
                             <td><a href="https://searxng.sharspace.click" target="_blank">SearXNG</a></td>
                         </tr>
-                       <tr>
-                         <td>Sharspace <strong>DEV</strong> Matrix server (Email for Access)</td>
-                            <td style="background-color: lime; text-align: center;">Active!</td>
-                            <td><a href="https://shat.sharspace.click" target="_blank">Server address</a></td>
-                        </tr>
                         <tr>
                             <td>Phone Buzzer (Buzz my phone at anytime)</td>
                             <td style="background-color: orange; text-align: center;">Paused</td>
