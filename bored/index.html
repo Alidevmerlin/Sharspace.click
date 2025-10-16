@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dicky Website</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+
+      /* 🌈 Animated rainbow background */
+      background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, violet, red);
+      background-size: 1400% 1400%;
+      animation: rainbow 30s ease infinite;
+      transition: background 0.5s ease;
+    }
+
+    @keyframes rainbow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Ensure text always contrasts with background using a subtle shadow */
+    main, p, .headline {
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 10px 0;
+      font-size: 1.2rem;
+      line-height: 1.5;
+      transition: transform 0.3s ease;
+    }
+
+    p:hover {
+      transform: scale(1.05);
+    }
+
+    /* Headline style */
+    .headline {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    /* Button styles */
+    .btn-container {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.85);
+      color: black;
+      border: none;
+      border-radius: 50px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .btn:hover {
+      background-color: #ffcc00;
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+
+    /* Cool page effects */
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: sparkle 10s linear infinite;
+    }
+
+    @keyframes sparkle {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+  </style>
+</head>
+<body>
+  <main>
+    <div class="headline">You are STUPID!</div>
+    <p>Why would you do something a sticker told you to do? Although, I don't know what to expect from somebody who decides that it is a good idea to search up random things found on random surfaces. I do however have a mission: to spread awareness of this growing issue. You can help me, yourself, and others by....</p>
+    <p>Spreading the message and making your own sticker with the same link you read on this sticker, or email me at <a href="mailto:fan@sharspace.click" style="color: #ffeb3b; text-decoration: underline;">fan@sharspace.click</a> for a week of good luck! Together, we can end stupidiosity!</p>
+    <p>Click the button below to visit my main site!</p>
+    <div class="btn-container">
+      <a href="https://www.sharspace.click" class="btn">Go to Main Site</a>
+    </div>
+  </main>
+</body>
+</html>
