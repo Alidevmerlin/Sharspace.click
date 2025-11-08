@@ -134,6 +134,7 @@
                     <h2>Thanks for visiting my site! Don't forget to send me an email, and I'll get back to you ASAP!</h2>
                   <div class="rainbow-text">
                         SCREW CENSORSHIP
+                    SCREW KYC
                       </div>
                   
                 </div>
@@ -148,7 +149,7 @@
                     <p>Between hosting costs and domain leasing, keeping Sharspace online isn’t cheap. Sharspace depends on the support of its community to continue its mission. My goal is to share Sharspace with people around the world, fostering connection across borders. Despite Sharspace being a simple website, I hope it can grow into a cultural phenomenon that brings people together.</p>
                   <p>Payment Options:</p>
                   <p>BTC: bc1qk9hhhgsfsqugjrk5dqyxnv46yrmjnur5trzfvk</p>
-                  <p>XMR: 455WrNW3XEvM6FgFvizG2ejAU5PDTSxCYZ5gV39iSfTLCPB5f8DwvckaZQKRmZJmPCXBoFESZCx1wfsLtTcC1SWE18Ajjky</p>
+                  <p>LN BTC: sharspace@blink.sv</p>
 
                   
                     
@@ -279,13 +280,14 @@
                     
                    
                     
-                    <h3>🔗 Cool Links</h3>
+                    <h3> Cool Links</h3>
                     <ul>
                         <li><a href="https://fmhy.net/" target="_blank">FMHY (Some Cool Free Stuff)</a></li>
                         <li><a href="https://www.gutenberg.org/" target="_blank">Gutenberg (Free Books)</a></li>
                         <li><a href="https://www.watchiptv.xyz/" target="_blank">Online IPTV for Browser (WatchIPTV) </a></li>
                         <li><a href="https://jackal.surge.sh/" target="_blank">Alternative IPTV (Jackal)</a></li>
                       <li><a href="https://bitcoin.rocks/" target="_blank">BTC EDU</a></li>
+                      <li><a href="https://bitcoin.org/bitcoin.pdf/" target="_blank">BTC Whitepaper</a></li>
                     </ul>
 
                     
