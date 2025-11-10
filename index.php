@@ -287,7 +287,7 @@
                         <li><a href="https://www.watchiptv.xyz/" target="_blank">Online IPTV for Browser (WatchIPTV) </a></li>
                         <li><a href="https://jackal.surge.sh/" target="_blank">Alternative IPTV (Jackal)</a></li>
                       <li><a href="https://bitcoin.rocks/" target="_blank">BTC EDU</a></li>
-                      <li><a href="https://bitcoin.org/bitcoin.pdf/" target="_blank">BTC Whitepaper</a></li>
+                      <li><a href="bitcoin.pdf" target="_blank">BTC Whitepaper</a></li>
                     </ul>
 
                     
