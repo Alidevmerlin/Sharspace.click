@@ -185,7 +185,7 @@
                         </tr>
                         <tr>
                             <td>Cashu.me Web Wallet Instance (LN,CASHU)</td>
-                            <td style="background-color: lime; text-align: center;">Active!</td>
+                            <td style="background-color: orange; text-align: center;">Paused</td>
                             <td><a href="https://cashu.sharspace.click" target="_blank">Web Wallet</a></td>
                         </tr>
                         <tr>
