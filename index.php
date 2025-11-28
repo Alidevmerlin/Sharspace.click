@@ -78,6 +78,43 @@
                     <h4>Github</h4>
                 <iframe src="https://ghbtns.com/github-btn.html?user=Alidevmerlin&repo=Sharspace.click&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub" ></iframe>
                 </div>
+              <div class="sidebar-widget">
+                    <h4>Visits</h4>
+                <div id="visitor-count" style="
+                                               display: inline-block;
+                                                padding: 10px 20px;
+                                                background-color: #222;
+                                                color: #0f0;
+                                                font-family: monospace;
+                                                font-size: 24px;
+                                                border-radius: 5px;
+                                                text-align: center;
+                                            ">
+                                                Loading...
+                                            </div>
+
+                                            <script>
+                                                fetch("counter.php")
+                                                    .then(response => response.text())
+                                                    .then(count => {
+                                                        const counter = document.getElementById("visitor-count");
+                                                        counter.innerText = count;
+
+                                                        // Optional: add retro styling dynamically if needed
+                                                        counter.style.backgroundColor = "#222";
+                                                        counter.style.color = "#0f0";
+                                                        counter.style.fontFamily = "monospace";
+                                                        counter.style.fontSize = "24px";
+                                                        counter.style.padding = "10px 20px";
+                                                        counter.style.borderRadius = "5px";
+                                                        counter.style.display = "inline-block";
+                                                        counter.style.textAlign = "center";
+                                                    })
+                                                    .catch(err => {
+                                                        console.error("Error fetching counter:", err);
+                                                    });
+                                            </script>
+                                      </div>
               
             </td>
             <td width="650" valign="top" class="content-column">
@@ -295,12 +332,13 @@
                     
                     <h3>Statistics</h3>
                     <table border="1" cellpadding="5" style="background: #FFFFCC;">
+
+                      
+
+                            
+
                         <tr>
-                            <td><strong>Total Visits:</strong></td>
-                            <td><blink>100,000+<blink></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Server Stats:</strong></td>
+                            <td><strong>Server Stats Page:</strong></td>
                             <td><a href="https://stats.sharspace.click/"target="_blank">STATS</a></td>
                         </tr>
                         

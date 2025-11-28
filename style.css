@@ -1146,4 +1146,13 @@ hr {
   color: var(--color-primary); /* teal highlight */
   text-shadow: 0 0 80px rgba(33, 128, 141, 0.6);
 }
+#visitor-count {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #222;
+            color: #0f0;
+            font-family: monospace;
+            font-size: 24px;
+            border-radius: 5px;
+        }
 
